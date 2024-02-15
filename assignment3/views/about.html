@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+            <a href="/" class="btn btn-ghost normal-case text-xl">Lego Collection</a>
+        </div>
+
+        <div class="navbar-center flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="/views/about.html" class="active">About</a></li>
+                <li>
+                    <details>
+                        <summary>Theme</summary>
+                        <ul class="p-2 w-32 bg-base-100 right-0">
+                          <li><a href="/lego/sets?theme=Technic">Technic</a></li>
+                          <li><a href="/lego/sets?theme=Classic Town">Classic Town</a></li>
+                          <li><a href="/lego/sets?theme=Lion Knights">Lion Knights</a></li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container mx-auto">
+
+        <div class="hero h-96 bg-base-200">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">About</h1>
+                    <p class="py-6">All about me</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image and Message-->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+
+            <!-- Image -->
+            <div>
+              <img class="rounded-lg block mx-auto" src="https://media.istockphoto.com/id/874918780/photo/little-hacker-using-laptop.jpg?s=2048x2048&w=is&k=20&c=9RSBZ4FInwpBVFSTm-CWr9Vm_MyGQzGVUyGuVegYUp8=" width="500" height="500">
+            </div>
+
+            <!-- Message -->
+            <div class="text-center">
+                <h2 class="text-xl font-bold mb-2">About Me</h2>
+                <p>
+                    My name is Karoly Nemeth. I am currently studying at Seneca.
+                </p>
+                <p>
+                    I am working on assignment 3 that involves using tailwind.
+                    It is a fun and challenging assignment. I am looking forward
+                    to finishing school and getting a job as a Software Developer.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
